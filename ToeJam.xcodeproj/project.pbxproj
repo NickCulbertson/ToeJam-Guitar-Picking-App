@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A43A4CF2E3915C300EC5BAD /* AudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5A43A4CE2E3915C300EC5BAD /* AudioKit */; };
+		5A43A4D22E3915DD00EC5BAD /* AudioKitEX in Frameworks */ = {isa = PBXBuildFile; productRef = 5A43A4D12E3915DD00EC5BAD /* AudioKitEX */; };
+		5A43A4D52E3915F300EC5BAD /* AudioKitUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5A43A4D42E3915F300EC5BAD /* AudioKitUI */; };
+		5A43A4D82E39160E00EC5BAD /* SoundpipeAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5A43A4D72E39160E00EC5BAD /* SoundpipeAudioKit */; };
+		5A43A4DB2E39162D00EC5BAD /* DunneAudioKit in Frameworks */ = {isa = PBXBuildFile; productRef = 5A43A4DA2E39162D00EC5BAD /* DunneAudioKit */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A43A4B12E390A1100EC5BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A43A4982E390A0F00EC5BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A43A49F2E390A0F00EC5BAD;
+			remoteInfo = ToeJam;
+		};
+		5A43A4BB2E390A1100EC5BAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A43A4982E390A0F00EC5BAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A43A49F2E390A0F00EC5BAD;
+			remoteInfo = ToeJam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A43A4A02E390A0F00EC5BAD /* ToeJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToeJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A43A4B02E390A1100EC5BAD /* ToeJamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToeJamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A43A4BA2E390A1100EC5BAD /* ToeJamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToeJamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5A43A4A22E390A0F00EC5BAD /* ToeJam */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ToeJam;
+			sourceTree = "<group>";
+		};
+		5A43A4B32E390A1100EC5BAD /* ToeJamTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ToeJamTests;
+			sourceTree = "<group>";
+		};
+		5A43A4BD2E390A1100EC5BAD /* ToeJamUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ToeJamUITests;
+			sourceTree = "<group>";
+		};
+		5A43A5172E3916E400EC5BAD /* Sounds */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A43A49D2E390A0F00EC5BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A43A4CF2E3915C300EC5BAD /* AudioKit in Frameworks */,
+				5A43A4DB2E39162D00EC5BAD /* DunneAudioKit in Frameworks */,
+				5A43A4D52E3915F300EC5BAD /* AudioKitUI in Frameworks */,
+				5A43A4D82E39160E00EC5BAD /* SoundpipeAudioKit in Frameworks */,
+				5A43A4D22E3915DD00EC5BAD /* AudioKitEX in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A43A4AD2E390A1100EC5BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A43A4B72E390A1100EC5BAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A43A4972E390A0F00EC5BAD = {
+			isa = PBXGroup;
+			children = (
+				5A43A5172E3916E400EC5BAD /* Sounds */,
+				5A43A4A22E390A0F00EC5BAD /* ToeJam */,
+				5A43A4B32E390A1100EC5BAD /* ToeJamTests */,
+				5A43A4BD2E390A1100EC5BAD /* ToeJamUITests */,
+				5A43A4A12E390A0F00EC5BAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A43A4A12E390A0F00EC5BAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A43A4A02E390A0F00EC5BAD /* ToeJam.app */,
+				5A43A4B02E390A1100EC5BAD /* ToeJamTests.xctest */,
+				5A43A4BA2E390A1100EC5BAD /* ToeJamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A43A49F2E390A0F00EC5BAD /* ToeJam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A43A4C42E390A1100EC5BAD /* Build configuration list for PBXNativeTarget "ToeJam" */;
+			buildPhases = (
+				5A43A49C2E390A0F00EC5BAD /* Sources */,
+				5A43A49D2E390A0F00EC5BAD /* Frameworks */,
+				5A43A49E2E390A0F00EC5BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5A43A4A22E390A0F00EC5BAD /* ToeJam */,
+				5A43A5172E3916E400EC5BAD /* Sounds */,
+			);
+			name = ToeJam;
+			packageProductDependencies = (
+				5A43A4CE2E3915C300EC5BAD /* AudioKit */,
+				5A43A4D12E3915DD00EC5BAD /* AudioKitEX */,
+				5A43A4D42E3915F300EC5BAD /* AudioKitUI */,
+				5A43A4D72E39160E00EC5BAD /* SoundpipeAudioKit */,
+				5A43A4DA2E39162D00EC5BAD /* DunneAudioKit */,
+			);
+			productName = ToeJam;
+			productReference = 5A43A4A02E390A0F00EC5BAD /* ToeJam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A43A4AF2E390A1100EC5BAD /* ToeJamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A43A4C72E390A1100EC5BAD /* Build configuration list for PBXNativeTarget "ToeJamTests" */;
+			buildPhases = (
+				5A43A4AC2E390A1100EC5BAD /* Sources */,
+				5A43A4AD2E390A1100EC5BAD /* Frameworks */,
+				5A43A4AE2E390A1100EC5BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A43A4B22E390A1100EC5BAD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5A43A4B32E390A1100EC5BAD /* ToeJamTests */,
+			);
+			name = ToeJamTests;
+			packageProductDependencies = (
+			);
+			productName = ToeJamTests;
+			productReference = 5A43A4B02E390A1100EC5BAD /* ToeJamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A43A4B92E390A1100EC5BAD /* ToeJamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A43A4CA2E390A1100EC5BAD /* Build configuration list for PBXNativeTarget "ToeJamUITests" */;
+			buildPhases = (
+				5A43A4B62E390A1100EC5BAD /* Sources */,
+				5A43A4B72E390A1100EC5BAD /* Frameworks */,
+				5A43A4B82E390A1100EC5BAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A43A4BC2E390A1100EC5BAD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				5A43A4BD2E390A1100EC5BAD /* ToeJamUITests */,
+			);
+			name = ToeJamUITests;
+			packageProductDependencies = (
+			);
+			productName = ToeJamUITests;
+			productReference = 5A43A4BA2E390A1100EC5BAD /* ToeJamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A43A4982E390A0F00EC5BAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					5A43A49F2E390A0F00EC5BAD = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					5A43A4AF2E390A1100EC5BAD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5A43A49F2E390A0F00EC5BAD;
+					};
+					5A43A4B92E390A1100EC5BAD = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 5A43A49F2E390A0F00EC5BAD;
+					};
+				};
+			};
+			buildConfigurationList = 5A43A49B2E390A0F00EC5BAD /* Build configuration list for PBXProject "ToeJam" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A43A4972E390A0F00EC5BAD;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5A43A4CD2E3915C300EC5BAD /* XCRemoteSwiftPackageReference "AudioKit" */,
+				5A43A4D02E3915DD00EC5BAD /* XCRemoteSwiftPackageReference "AudioKitEX" */,
+				5A43A4D32E3915F300EC5BAD /* XCRemoteSwiftPackageReference "AudioKitUI" */,
+				5A43A4D62E39160E00EC5BAD /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */,
+				5A43A4D92E39162D00EC5BAD /* XCRemoteSwiftPackageReference "DunneAudioKit" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 5A43A4A12E390A0F00EC5BAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A43A49F2E390A0F00EC5BAD /* ToeJam */,
+				5A43A4AF2E390A1100EC5BAD /* ToeJamTests */,
+				5A43A4B92E390A1100EC5BAD /* ToeJamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A43A49E2E390A0F00EC5BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A43A4AE2E390A1100EC5BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A43A4B82E390A1100EC5BAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A43A49C2E390A0F00EC5BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A43A4AC2E390A1100EC5BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A43A4B62E390A1100EC5BAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A43A4B22E390A1100EC5BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A43A49F2E390A0F00EC5BAD /* ToeJam */;
+			targetProxy = 5A43A4B12E390A1100EC5BAD /* PBXContainerItemProxy */;
+		};
+		5A43A4BC2E390A1100EC5BAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A43A49F2E390A0F00EC5BAD /* ToeJam */;
+			targetProxy = 5A43A4BB2E390A1100EC5BAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5A43A4C22E390A1100EC5BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A43A4C32E390A1100EC5BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A43A4C52E390A1100EC5BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToeJam/Preview Content\"";
+				DEVELOPMENT_TEAM = R6J85WRCEG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MobyPixel.ToeJam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A43A4C62E390A1100EC5BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ToeJam/Preview Content\"";
+				DEVELOPMENT_TEAM = R6J85WRCEG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MobyPixel.ToeJam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A43A4C82E390A1100EC5BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R6J85WRCEG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MobyPixel.ToeJamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToeJam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToeJam";
+			};
+			name = Debug;
+		};
+		5A43A4C92E390A1100EC5BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R6J85WRCEG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MobyPixel.ToeJamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ToeJam.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ToeJam";
+			};
+			name = Release;
+		};
+		5A43A4CB2E390A1100EC5BAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R6J85WRCEG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MobyPixel.ToeJamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToeJam;
+			};
+			name = Debug;
+		};
+		5A43A4CC2E390A1100EC5BAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R6J85WRCEG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MobyPixel.ToeJamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ToeJam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A43A49B2E390A0F00EC5BAD /* Build configuration list for PBXProject "ToeJam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A43A4C22E390A1100EC5BAD /* Debug */,
+				5A43A4C32E390A1100EC5BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A43A4C42E390A1100EC5BAD /* Build configuration list for PBXNativeTarget "ToeJam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A43A4C52E390A1100EC5BAD /* Debug */,
+				5A43A4C62E390A1100EC5BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A43A4C72E390A1100EC5BAD /* Build configuration list for PBXNativeTarget "ToeJamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A43A4C82E390A1100EC5BAD /* Debug */,
+				5A43A4C92E390A1100EC5BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A43A4CA2E390A1100EC5BAD /* Build configuration list for PBXNativeTarget "ToeJamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A43A4CB2E390A1100EC5BAD /* Debug */,
+				5A43A4CC2E390A1100EC5BAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5A43A4CD2E3915C300EC5BAD /* XCRemoteSwiftPackageReference "AudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.5;
+			};
+		};
+		5A43A4D02E3915DD00EC5BAD /* XCRemoteSwiftPackageReference "AudioKitEX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitEX";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.2;
+			};
+		};
+		5A43A4D32E3915F300EC5BAD /* XCRemoteSwiftPackageReference "AudioKitUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/AudioKitUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.7;
+			};
+		};
+		5A43A4D62E39160E00EC5BAD /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/SoundpipeAudioKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.3;
+			};
+		};
+		5A43A4D92E39162D00EC5BAD /* XCRemoteSwiftPackageReference "DunneAudioKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AudioKit/DunneAudioKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5A43A4CE2E3915C300EC5BAD /* AudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A43A4CD2E3915C300EC5BAD /* XCRemoteSwiftPackageReference "AudioKit" */;
+			productName = AudioKit;
+		};
+		5A43A4D12E3915DD00EC5BAD /* AudioKitEX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A43A4D02E3915DD00EC5BAD /* XCRemoteSwiftPackageReference "AudioKitEX" */;
+			productName = AudioKitEX;
+		};
+		5A43A4D42E3915F300EC5BAD /* AudioKitUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A43A4D32E3915F300EC5BAD /* XCRemoteSwiftPackageReference "AudioKitUI" */;
+			productName = AudioKitUI;
+		};
+		5A43A4D72E39160E00EC5BAD /* SoundpipeAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A43A4D62E39160E00EC5BAD /* XCRemoteSwiftPackageReference "SoundpipeAudioKit" */;
+			productName = SoundpipeAudioKit;
+		};
+		5A43A4DA2E39162D00EC5BAD /* DunneAudioKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5A43A4D92E39162D00EC5BAD /* XCRemoteSwiftPackageReference "DunneAudioKit" */;
+			productName = DunneAudioKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5A43A4982E390A0F00EC5BAD /* Project object */;
+}
