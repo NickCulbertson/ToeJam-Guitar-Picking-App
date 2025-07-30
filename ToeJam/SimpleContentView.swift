@@ -38,7 +38,7 @@ class SimpleConductor: ObservableObject, HasAudioEngine {
         if let fileURL = Bundle.main.url(forResource: "guitar", withExtension: "SFZ") {
             instrument.loadSFZ(url: fileURL)
         }
-        instrument.masterVolume = 0.4
+        instrument.masterVolume = 0.8
     }
     
     private func setupSequencer() {

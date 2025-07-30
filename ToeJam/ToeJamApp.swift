@@ -15,7 +15,6 @@ struct ToeJamApp: App {
                         Settings.sampleRate = 48_000
                     }
                 }
-
                 try AVAudioSession.sharedInstance().setCategory(.playback,
                                                                 options: [.mixWithOthers, .allowBluetoothA2DP])
                 try AVAudioSession.sharedInstance().setActive(true)

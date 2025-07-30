@@ -693,14 +693,14 @@ enum GChord: CaseIterable {
     
     var accessibleName: String {
         switch self {
-        case .g: return "G major chord, roman numeral 1"
-        case .am: return "A minor chord, roman numeral 2"
-        case .bm: return "B minor chord, roman numeral 3"
-        case .c: return "C major chord, roman numeral 4"
-        case .d: return "D major chord, roman numeral 5"
-        case .em: return "E minor chord, roman numeral 6"
-        case .fsharpDim: return "F sharp diminished chord, roman numeral 7"
-        case .gOct: return "G major octave chord, roman numeral 1 octave"
+        case .g: return "G major"
+        case .am: return "A minor"
+        case .bm: return "B minor"
+        case .c: return "C major"
+        case .d: return "D major"
+        case .em: return "E minor"
+        case .fsharpDim: return "F sharp chord"
+        case .gOct: return "G major octave chord"
         }
     }
 }
