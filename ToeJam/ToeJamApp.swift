@@ -30,6 +30,11 @@ struct ToeJamApp: App {
         WindowGroup {
             //Main version
             ContentView()
+                .preferredColorScheme(.dark)
+                .onAppear {
+                    // Configure accessibility settings
+                    UIAccessibility.post(notification: .screenChanged, argument: "Travis Picking Practice App launched")
+                }
             
             //Easier version for tutorial
 //            SimpleContentView()
