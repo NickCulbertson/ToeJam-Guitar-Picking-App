@@ -3,11 +3,11 @@
 **ToeJam** is an accessibility-focused music app prototype that uses [AudioKit](https://audiokit.io) to create a Travis picking guitar sequencer — designed to be played with your feet.
 
 ## Video Demo
-
+*“I Use My Feet to Make Music. Can AI Help Me Code an App?”*
 [![Watch the video](https://img.youtube.com/vi/7I3wxwvb5tI/hqdefault.jpg)](https://youtu.be/7I3wxwvb5tI)
 
 This app was inspired by a real question from a musician who makes music on iPad using her feet.  
-She asked:  
+She asked:
 *“Can AI help me code a guitar picking app like Riffler?”*
 
 So I built a prototype — and documented the process in this video.
